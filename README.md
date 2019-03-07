@@ -1,3 +1,3 @@
 # Flight/Air Distance Calculator
 
-Calculates flight distance in Km based on great-circle distance formula
+A fast and simple air distance calculator. This function calculates the air distance between two points based on great-circle distance [formula](http://www.movable-type.co.uk/scripts/latlong.html).
