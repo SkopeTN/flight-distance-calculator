@@ -1,6 +1,9 @@
 
-/* calculate flight distance in Km based on great-circle distance formula
+/* calculates flight distance in Km based on great-circle distance formula
 ** this link explains how GCD is calculated http://www.movable-type.co.uk/scripts/latlong.html
+** params:
+** departure: { longitude, latitude }
+** arrival: { longitude, latitude }
 */
 function calculateFlightDistance(departure, arrival) {
     const deg2rad = deg => deg * (Math.PI / 180);
